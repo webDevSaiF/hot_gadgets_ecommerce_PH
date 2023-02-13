@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Gadgets eCommerce</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@400;700&family=Montserrat:wght@600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ==HEADER SECTION START== -->
+    <header class="container mb-80 mb-m-40">
+      <!-- ==NAVIGATION== -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- ==HEADER SECTION END== -->
+
+    <!-- ==HERO SECTION START== -->
+    <section class="container hero-section mb-80 mb-m-40">
+      <!-- ==SLIDER== -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide bg-white"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>
+                  SteelSeries Siberia V2 Navi Full-Size Gaming Headset (Yellow)
+                </h2>
+                <p>
+                  Closed ear headphones, Pull-out microphone Crystal clear high,
+                  low and mid-tones 50mm driver units, Lightweight suspension
+                  construction, Integrated volume control located on the cord
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$199.00</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/headphone.png"
+                  class="d-block w-100 img-fluid"
+                  alt="headphone image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>Amazon Fire TV 43" 4-Series 4K UHD smart TV</h2>
+                <p>
+                  Amazon Fire TV 4-Series comes with a 1-year limited warranty
+                  and a 30-day Amazon Device return policy. Learn more about
+                  Amazon Device returns.
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$168.99</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/tv.png"
+                  class="d-block w-100 img-fluid"
+                  alt="televison image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>Microsoft Xbox One S 1Tb Console - White</h2>
+                <p>
+                  Watch 4K Blue ray movies and stream 4K content on Netflix and
+                  Amazon video Experience richer, more luminous colors in games
+                  and video with high dynamic range Play over 100 console
+                  exclusives and a growing library of Xbox 360 games on Xbox 1
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$278.97</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/xbox.png"
+                  class="d-block w-100 img-fluid"
+                  alt="xbox image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ==HERO SECTION END== -->
+
+    <!-- ==CATEGORIES SECTION START== -->
+    <section class="container categories-section mb-80 mb-m-40">
+      <!-- ==ROW 1== -->
+      <div class="row">
+        <!-- ==COLUMN 1== -->
+        <div class="col-md-4 mb-m-20">
+          <div
+            class="cat-1 cat d-flex align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Watch</h3>
+            <img
+              src="./assets/images/categories/watch.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <!-- ==COLUMN 2== -->
+
+        <div class="col-md-4 mb-m-20">
+          <div
+            class="cat-2 cat d-flex flex-row align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Bags</h3>
+            <img
+              src="./assets/images/categories/bag.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <!-- ==COLUMN 3== -->
+
+        <div class="col-md-4">
+          <div
+            class="cat-3 cat d-flex flex-row align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Shoes</h3>
+            <img
+              src="./assets/images/categories/shoes.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==CATEGORIES SECTION END== -->
+
+    <!-- ==SHOES SECTION START== -->
+    <section class="container shoes-section mb-80 mb-m-40" id="shoes">
+      <h2 class="section-title">Shoes</h2>
+      <!-- ==CARD DECK== -->
+      <div class="card-deck mt-40">
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-1.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">adidas Yeezy Boost 350 V2</h5>
+            <p class="card-text">
+              Standing out from the pack, the Yeezy Boost 350 V2 “Carbon”
+              features a predominantly black and grey Primeknit upper with
+              contrasting patterns woven into the material.
+            </p>
+            <h5>$297.00</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-2.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike Men's Low-Top Sneakers</h5>
+            <p class="card-text">
+              Max air unit for maximum comfort. Leather for super resistance.
+              The Nike air max LTD 3 men's shoe gives comfort with a genuine
+              synthetic leather upper and cushioning With a max air unit under
+              the heel.
+            </p>
+            <h5>$119.00</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-3.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike Mens Air Max 2017 849559 302</h5>
+            <p class="card-text">
+              The Nike Air Max 302 Running Shoe is designed for maximum support
+              of the entire foot. The Max Air unit on the heel offers reactive
+              cushioning kilometer after kilometer.
+            </p>
+            <h5>$142.92</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==SHOES SECTION END== -->
+
+    <!-- ==BACKPACK SECTION START== -->
+    <section class="container backpack-section mb-80 mb-m-40" id="backpack">
+      <h2 class="section-title">Backpack</h2>
+      <!-- ==CARD DECK== -->
+      <div class="card-deck mt-40">
+        <div class="card">
+          <img
+            src="./assets/images/bags/bag-1.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">OGIO Recon Backpack</h5>
+            <p class="card-text">
+              Rugged and durable, this simple pack will keep you organized and
+              your belongings safe 365 days per year.
+            </p>
+            <h5>$59.99</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/bags/bag-2.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Burton Unisex's Annex 2.0 Daypack</h5>
+            <p class="card-text">
+              The Burton Annex 2.0 28L Backpack brings old-school rucksack charm
+              and tech-ready organization to your daily commute and weekend
+              escapades.
+            </p>
+            <h5>$70.90</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/bags/bag-3.png"
+            class="card-img-top"
+            alt="bag image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Everest Luggage Basic Backpack</h5>
+            <p class="card-text">
+              A mid-size backpack in a modern, streamlined silhouette.
+            </p>
+            <h5>$14.92</h5>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==BACKPACK SECTION END== -->
+
+    <!-- ==SUBSCRIBE SECTION START== -->
+    <section class="subscribe-section container mb-80 mb-m-40" id="subscribe">
+      <div
+        class="row bg-light-pink p-5 align-items-center justify-content-center radius-12"
+      >
+        <div class="col-md-5">
+          <h3 class="text-uppercase text-center">lets stay in touch</h3>
+          <h6 class="text-capitalize text-center text-secondary">
+            Get updates on sale specials and more
+          </h6>
+          <input
+            type="email"
+            class="form-control mb-3"
+            placeholder="example@mail.com"
+          />
+          <button class="buy-now-btn mx-auto d-block">Submit</button>
+        </div>
+      </div>
+    </section>
+    <!-- ==SUBSCRIBE SECTION END== -->
+
+    <!-- ==FOOTER SECTION START== -->
+    <footer class="container footer-section py-3">
+      <p class="text-secondary text-center mb-0 text-uppercase">
+        All rights reserved by &copy; Saif
+      </p>
+    </footer>
+    <!-- ==FOOTER SECTION END== -->
+
+    <!-- BOOTSTRAP JS CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
